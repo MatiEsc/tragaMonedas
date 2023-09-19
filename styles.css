@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+.divCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.cuadroIndex {
+    width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.imagenRick {
+    width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.divText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.btnVolver {
+    display: flex;
+    justify-content: center;
+}
+
+.slot-machine {
+    text-align: center;
+}
+
+.slot {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.slot img {
+    max-width: 100%;
+    height: 100%;
+}
+
+#imagenGanador {
+    display: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.red:hover {
+    background-color: blue;
+}
